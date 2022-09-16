@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 
+// click, initial, transition and click rotate
+
 const Box1 = () => {
  
     const [isAnimating, setIsAnimating] = useState(false)
