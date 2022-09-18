@@ -1,25 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  background: rgb(182,33,254);
+  background: -moz-linear-gradient(249deg, rgba(182,33,254,1) 0%, rgba(31,209,249,1) 100%);
+  background: -webkit-linear-gradient(249deg, rgba(182,33,254,1) 0%, rgba(31,209,249,1) 100%);
+  background: linear-gradient(249deg, rgba(182,33,254,1) 0%, rgba(31,209,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b621fe",endColorstr="#1fd1f9",GradientType=1);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+span{
+  color: rgb(18, 34, 183);
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
 .App{
   padding: 5rem;
 }
 
+.introduction{
+  padding: 20px 0 50px 0;
+}
+
 .box_container{
-  padding-bottom: 20rem;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  text-align: center;
 }
 
 .box{
   width: 10rem;
   height: 10rem;
-  background: aquamarine;
+  background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 12%;
 }
 
 button {

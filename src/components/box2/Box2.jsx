@@ -6,7 +6,12 @@ import { motion } from 'framer-motion'
 const Box2 = () => {
 
   return (
+    <>
+    <span>Animation N°2</span>
     <div className='box_container'>
+        <h2>Hover the box.</h2>
+        <h2>Then click it.</h2>
+        <h2>And dragged it!</h2>
         <motion.div 
             className='box'
             drag
@@ -26,6 +31,7 @@ const Box2 = () => {
 
         </motion.div>
     </div>
+    </>
   )
 }
 
