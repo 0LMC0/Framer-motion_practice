@@ -4,10 +4,12 @@ import Box2 from './components/box2/Box2';
 import Box3 from './components/box3/Box3';
 import Box4 from './components/box4/Box4';
 import Box5 from './components/box5.jsx/Box5';
+import Introduccion from './components/introduccion/introduccion';
 
 function App() {
   return (
     <div className="App">
+      <Introduccion />
       <Box1 />
       <Box2 />
       <Box3 />

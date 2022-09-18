@@ -6,7 +6,13 @@ import { motion } from 'framer-motion'
 const Box4 = () => {
 
   return (
+    <>
+    <span>Animation N°1</span>
     <div className='box_container'>
+        <h2>Click on the box</h2>
+        <h5>and it should be going to the right (opacity: 0 at the initiation)</h5>
+        <h2>Then click again</h2>
+        <h5>and it should be going back to the left</h5>
         <motion.div 
             className='box'
             animate={{
@@ -20,6 +26,7 @@ const Box4 = () => {
             >
         </motion.div>
     </div>
+    </>
   )
 }
 
