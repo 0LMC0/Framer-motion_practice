@@ -12,6 +12,7 @@ const Box2 = () => {
         <h2>Hover the box.</h2>
         <h2>Then click it.</h2>
         <h2>And dragged it!</h2>
+        <h5>Drag, dragConstrains, whileHover & whileTap</h5>
         <motion.div 
             className='box'
             drag

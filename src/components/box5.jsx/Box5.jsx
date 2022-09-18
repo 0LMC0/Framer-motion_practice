@@ -11,10 +11,9 @@ const Box5 = () => {
     <>
     <span>Animation N°1</span>
     <div className='box_container'>
-        <h2>Click on the box</h2>
-        <h5>and it should be going to the right (opacity: 0 at the initiation)</h5>
-        <h2>Then click again</h2>
-        <h5>and it should be going back to the left</h5>
+        <h2>Controls!</h2>
+        <h5>Then you can play with the diferents animation in any % of the another animation.</h5>
+        <h3>For example = circle + left or square + stop.</h3>
         <button onClick={() => {
           controls.start({
             x: "60vw",
