@@ -2,7 +2,7 @@
   "name": "framer-motion-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://0lmc0.github.io/framer-motion_practice",
+  "homepage": "https://0lmc0.github.io/Framer-motion_practice",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
