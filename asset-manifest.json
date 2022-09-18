@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/framer-motion_practice/static/css/main.ae9bc48c.css",
-    "main.js": "/framer-motion_practice/static/js/main.4306cbc5.js",
-    "index.html": "/framer-motion_practice/index.html",
-    "main.ae9bc48c.css.map": "/framer-motion_practice/static/css/main.ae9bc48c.css.map",
-    "main.4306cbc5.js.map": "/framer-motion_practice/static/js/main.4306cbc5.js.map"
+    "main.css": "/Framer-motion_practice/static/css/main.ae9bc48c.css",
+    "main.js": "/Framer-motion_practice/static/js/main.4306cbc5.js",
+    "index.html": "/Framer-motion_practice/index.html",
+    "main.ae9bc48c.css.map": "/Framer-motion_practice/static/css/main.ae9bc48c.css.map",
+    "main.4306cbc5.js.map": "/Framer-motion_practice/static/js/main.4306cbc5.js.map"
   },
   "entrypoints": [
     "static/css/main.ae9bc48c.css",
